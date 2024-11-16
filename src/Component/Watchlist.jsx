@@ -16,11 +16,11 @@ const Watchlist = ({watchlist, handelRemoveFromWatchlist}) => {
   return (
     <>
 
-      <div className="genre-container">
+      {/* <div className="genre-container">
         <div className="genre">Action</div>
         <div className="genre color">Action</div>
         <div className="genre">Action</div>
-      </div>
+      </div> */}
 
       <div className="watchlist">
         <input type="text" name="text" id="text" placeholder="Search Movies" onChange={handelSearch} />
