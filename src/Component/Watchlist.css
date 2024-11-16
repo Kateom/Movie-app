@@ -1,0 +1,95 @@
+.genre-container{
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-weight: 500;
+    
+}
+
+.genre{
+    text-align: center;
+    background-color: rgb(117, 200, 232);
+    padding: 10px;
+    width: 70px;
+    height: 20px;
+
+    border-radius: 10px;
+}
+
+.color{
+    background-color: gray;
+}
+
+
+
+.watchlist{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.watchlist > input{
+    width: 250px;
+    height: 20px;
+    background-color: rgb(238, 235, 235);
+    padding: 5px;
+    border: none;
+    
+}
+
+
+
+.delete-btn{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    outline: none;
+    border: 1px solid #ddd;
+    
+}
+th, td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: none; 
+    border-left: none;  
+}
+th {
+   
+    text-align: center;
+}
+td.name-column {
+    width: 30%;  
+}   
+
+.movie-details{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+    
+}
+
+.movie-name{
+    max-width: 250px;
+}
+
+.movie-poster{
+    width: 100px;
+    height: 105px;
+    /* object-fit: cover; */
+}
+.movie-remove{
+    color: red;
+    cursor: pointer;
+}

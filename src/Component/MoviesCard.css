@@ -1,0 +1,42 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  position: relative;
+  
+}
+
+.movie-card {
+
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+  margin: 30px 20px;
+  object-fit: cover;
+}
+
+.movie-card:hover {
+  transform: scale(0.9);
+}
+.card-name {
+  position: absolute;
+  width: 150px;
+  text-align: center;
+  top: 330px;
+  font-size: 15px;
+  bottom: 100px;
+  font-weight: 600;
+  
+}
+
+.movie-icon{
+  position: absolute;
+  right: 30px;
+  top: 40px;
+  padding: 5px;
+  background-color: gray;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+

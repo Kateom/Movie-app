@@ -1,0 +1,27 @@
+.navbar {
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+}
+
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(114, 114, 193);
+}
+
+a:hover {
+  color: darkslategrey;
+}
+
+.links {
+  display: flex;
+  gap: 50px;
+}
